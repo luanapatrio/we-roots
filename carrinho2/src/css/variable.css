@@ -1,0 +1,14 @@
+:root {
+    --bg-hidden: #ad518d;
+    --error: rgb(255, 82, 82);
+    --light: rgb(255, 255, 255);
+    --bg-border: rgb(222, 221, 223);
+    --border-input: rgb(142, 133, 147);
+    --button-bg: rgb(33, 9, 47);
+    --fs: 1.8rem;
+    --gradient-border: linear-gradient(
+      to right,
+      rgb(66, 118, 83),
+      rgb(40, 80, 65)
+    )1;
+  }

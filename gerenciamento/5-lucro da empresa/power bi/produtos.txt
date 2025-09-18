@@ -1,0 +1,15 @@
+id_produto;produto;categoria;quantidade;custo;preco_de_venda
+1;CenouraTropical;Legume;50;5,55;50
+2;CenouraNantes;Legume;50;5,85;51
+3;CenouraGrande;Legume;50;4,85;36
+4;CenouraComprida;Legume;50;6,70;130
+5;AlfaceManteiga;Verdura;50;6,49;292
+6;AlfaceAmericana;Verdura;50;5,44;239
+7;AlfaceRoxa;Verdura;50;5,99;267
+8;BananaPrata;Fruta;5;8,63;100
+9;TomateCereja;Fruta;20;14,81;150
+10;Lichia;Fruta;5;10,63;215
+11;Couve-flor;Verdura;50;5,55;599
+12;Couve;Verdura;50;5,44;499
+13;Brocólis;Legume;50;5,35;500
+14;Milho-verde;Legume;5;5;250

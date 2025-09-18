@@ -1,0 +1,5 @@
+id_loja;nome_da_loja;local;cidade
+1;Matriz;Paulista;São Paulo
+2;Filial 1;Kennedy;São Caetano
+3;Filial 2;Jardins;Santo André
+4;Filial 3;Parque Cidade da Criança;São Bernardo

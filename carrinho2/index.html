@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variable.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="src/img/logo.png" type="image/x-icon">
+    <title>Pagamentos</title>
+</head>
+<body>
+    <main>
+        <section class="cards">
+          <div class="card front-card">
+            <div class="detail">
+              <img src="src/img/card-logo.svg" alt="" />
+            </div>
+            <div class="info-card">
+              <p id="card-number">0000 0000 0000 0000</p>
+              <div class="name-date">
+                <p id="card-name">SESI SENAI</p>
+                <p id="card-expiration">00/00</p>
+              </div>
+            </div>
+          </div>
+          <div class="card back-card">
+            <p id="card-cvc">000</p>
+          </div>
+        </section>
+  
+        <section class="wrapper-info">
+          <form class="form" id="form">
+            <div class="content-form">
+              <label for="name">NOME DO TITULAR</label>
+              <input
+                type="text"
+                maxlength="30"
+                name="name"
+                id="name"
+                placeholder="ex. SESI SENAI"
+              />
+              <small>Error</small>
+            </div>
+  
+            <div class="content-form">
+              <label for="number">NÚMERO DO CARTÃO</label>
+              <input
+                type="text"
+                name="number"
+                id="number"
+                placeholder="ex. 0000 0000 0000 0000"
+              />
+              <small>Error</small>
+            </div>
+  
+            <div class="venc-cvc">
+              <div class="venc">
+                <label for="venc">VALIDADE</label>
+                <div class="month-year">
+                  <input
+                    type="text"
+                    name="month"
+                    id="month"
+                    placeholder="00"
+                    min="1"
+                    max="12"
+                  />
+                  <input type="text" name="year" id="year" placeholder="00" />
+                </div>
+                <small>Error</small>
+              </div>
+              <div class="cvc">
+                <label for="cvc">CVC</label>
+  
+                <input type="text" name="cvc" id="cvc" placeholder="000" />
+                <small>Error</small>
+              </div>
+            </div>
+  
+            <div class="btn">
+              <input id="btn-confirm" type="submit" value="Confirmar" />
+            </div>
+          </form>
+  
+          <div class="thanks visibility" id="thanks">
+            <p>Obrigado! Adicionamos as informações do seu cartão</p>
+            <a href="/confirmação/confirmacao.html">
+              <input id="btn-continue" type="submit" value="Confirmar" />
+            </a>
+          </div>
+        </section>
+      </main>
+      <script src="src/js/script.js"></script>
+</body>
+</html>
